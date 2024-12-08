@@ -9,20 +9,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
 <form name="form">
     <div class="head_form">
-        <h3>Test</h3>
-        <input type="text">
-        <button>add</button>
+        <h1><b>Test</b></h1>
+        <p>Name/Value Pair</p>
+        <input type="text" name="nameValue" placeholder="Name=Value">
+        <button id="add">Add</button>
     </div>
     <div class="main_form">
-        <div></div>
-        <button>sort by name</button>
-        <button>sort by value</button>
-        <button>delete</button>
+        <p>Name/Value Pair List </p>
+        <div id="output"></div>
+        <div class="wrapper">
+            <button id ="sortByName">Sort by name</button>
+            <button id ="sortByValue">Sort by value</button>
+            <button id ="delete">Delete</button>
+        </div>
     </div>
 </form>
 
-<script src="scipt.js"
+<script src="script.js"></script>
 </body>
 </html>
