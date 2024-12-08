@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+
+    background-color: deepskyblue;
+}
+form{
+    margin: 0 auto;
+    background-color: white;
+    width: 70vw;
+    height: 70vh;
+}
+.head_form{
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+}
+
+
+
+
